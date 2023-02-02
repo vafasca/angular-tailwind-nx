@@ -13,7 +13,7 @@
       Show me!
     </a>
   </div> -->
-  <div class="card">
+  <!-- <div class="card">
     <div class="card-title">{{ title }}</div>
     <p class="card-content">
       <ng-content></ng-content>
@@ -26,4 +26,11 @@
     >
       Show me!
     </a>
+  </div> -->
+  <div class="card">
+    <div class="card-title">{{ title }}</div>
+    <p class="card-content">
+      <ng-content></ng-content>
+    </p>
+    <angular-tailwind-nx-button class="flex self-end" [href]="url">Show me!</angular-tailwind-nx-button>
   </div>
