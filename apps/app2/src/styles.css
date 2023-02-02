@@ -3,3 +3,20 @@
 @tailwind utilities;
 
 /* You can add global styles to this file, and also import other style files */
+:root {
+    /* Colors */
+    --primary-light: #a5b4fc;
+    --primary: #6366f1;
+    --primary-dark: #4338ca;
+    --secondary-light: #e9d5ff;
+    --secondary: #a855f7;
+    --secondary-dark: #7e22ce;
+    --white: #ffffff;
+    --black: #000000;
+  
+    /* Spacing */
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+  }
