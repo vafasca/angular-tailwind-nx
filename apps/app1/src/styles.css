@@ -1,7 +1,7 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* You can add global styles to this file, and also import other style files */
 :root {
     /* Colors */
@@ -20,3 +20,4 @@
     --spacing-lg: 1.5rem;
     --spacing-xl: 2rem;
   }
+  

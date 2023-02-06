@@ -8,9 +8,13 @@ import { Lib2Module } from '@angular-tailwind-nx/lib2';
 import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
+//angular material
+import {MatButtonModule} from '@angular/material/button';
+
+
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
-  imports: [BrowserModule, Lib1Module, Lib2Module],
+  imports: [BrowserModule, Lib1Module, Lib2Module, MatButtonModule],
   providers: [],
   bootstrap: [AppComponent],
 })
