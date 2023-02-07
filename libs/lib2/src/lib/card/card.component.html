@@ -27,10 +27,23 @@
       Show me!
     </a>
   </div> -->
-  <div class="card">
+  <mat-card class="h-full flex flex-col p-lg shadow-md hover:shadow-lg bg-gradient-to-bl from-skyblue to-green">
+    <mat-card-header>
+      <mat-card-title class="text-lg pb-md font-bold"> {{title}} </mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="mb-xl flex-1">
+      <p><ng-content></ng-content></p>
+    </mat-card-content>
+    <mat-card-actions class="flex self-center">
+      <angular-tailwind-nx-button [href]="url">Show me!</angular-tailwind-nx-button>
+    </mat-card-actions>
+  </mat-card>
+  
+  <!-- <div class="h-full flex flex-col p-lg shadow-md hover:shadow-lg">
     <div class="card-title">{{ title }}</div>
     <p class="card-content">
       <ng-content></ng-content>
     </p>
     <angular-tailwind-nx-button class="flex self-end" [href]="url">Show me!</angular-tailwind-nx-button>
-  </div>
+  </div> -->
+  

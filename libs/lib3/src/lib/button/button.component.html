@@ -7,8 +7,10 @@
 >
   <ng-content></ng-content>
 </a> -->
-<!-- <a href="{{ href }}" target="_blank" rel="noopener noreferrer"> -->
-  <button mat-fab extended color="primary">
-    <ng-content></ng-content>
-  </button>
-<!-- </a> -->
+<a
+  href="{{ href }}"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+<button class="py-h px-w bg-gradient-to-bl from-primary-dark to-primary hover:from-secondary-dark hover:to-secondary text-white font-bold rounded-full"><ng-content></ng-content></button>
+</a>

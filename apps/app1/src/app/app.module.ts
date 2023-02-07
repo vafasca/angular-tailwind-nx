@@ -9,12 +9,29 @@ import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 //angular material
-import {MatButtonModule} from '@angular/material/button';
-
+import { MatButtonModule } from '@angular/material/button';
+import { AngularComponent } from './components/angular/angular.component';
+import { TailwindComponent } from './components/tailwind/tailwind.component';
+import { DemonxComponent } from './components/demonx/demonx.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
-  imports: [BrowserModule, Lib1Module, Lib2Module, MatButtonModule],
+  declarations: [
+    AppComponent,
+    NxWelcomeComponent,
+    AngularComponent,
+    TailwindComponent,
+    DemonxComponent,
+    HomeComponent,
+  ],
+  imports: [
+    BrowserModule,
+    Lib1Module,
+    Lib2Module,
+    MatButtonModule,
+    AppRoutingModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

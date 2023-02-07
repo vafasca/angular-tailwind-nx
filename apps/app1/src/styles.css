@@ -13,11 +13,15 @@
     --secondary-dark: #0369a1;
     --white: #ffffff;
     --black: #000000;
+    --skyblue: #4df1e4;
+    --green: #44e775;
   
     /* Spacing */
     --spacing-sm: 0.5rem;
     --spacing-md: 1rem;
     --spacing-lg: 1.5rem;
     --spacing-xl: 2rem;
+    --spacing-btn-w: 1rem;
+    --spacing-btn-h:0.5rem;
   }
   
